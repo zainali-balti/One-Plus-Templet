@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+.navbar .innerNav{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    justify-content: space-between;
+    /* background-color: blue; */
+    margin: auto;
+}
+.navbar .innerNav .logo{
+    width: 50%;
+    /* background-color: yellow; */
+    height: 100%;
+    /* margin: auto; */
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.navbar .innerNav .logo .innerUl{
+    width: 70%;
+    height: 100%;
+    /* background-color: black; */
+
+}
+.navbar .innerNav .logo .innerUl .ulList{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    padding-top: 16px;
+    
+}
+.navbar .innerNav .logo .innerUl .ulList li{
+    list-style: none;
+}
+.navbar .innerNav .logo .innerUl .ulList li a{
+    text-decoration: none;
+     color: black; 
+    font-size: 18px;
+}
+.navbar .innerNav .innerRightUl{
+    width: 15%;
+    height: 100%;
+    /* background-color: brown; */
+    
+}
+.navbar .innerNav .innerRightUl .rigthUlList{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    padding-top: 16px;
+}
+.navbar .innerNav .innerRightUl .rigthUlList li{
+    list-style: none;
+}
+.navbar .innerNav .innerRightUl .rigthUlList li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.section{
+    width: 100%;
+    height: 150vh;
+    background-image: url('pics/two.webp');
+    position: sticky;
+    /* top: 50px; */
+}
+.section .innerSection{
+    width: 40%;
+    height: 80vh;
+    /* background-color: yellow; */
+    text-align: center;
+    margin-top: 160px;
+    margin-left: 100px;
+    color: white;
+
+}
+.section .innerSection .image{
+    width: 100%;
+    height: 70px;
+}
+.section .innerSection .text{
+    font-size: 30px;
+}
+.section .innerSection .textAndImage{
+    /* background-color: red; */
+    width: 40%;
+    font-size: 22px;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+.section .innerSection .textAndImage img{
+width: 100%;
+}
+.sectionText{
+    width: 40%;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    top: 1600px;
+    margin: auto;
+}

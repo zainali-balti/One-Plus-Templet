@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.navbar .innerNav{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    justify-content: space-between;
+    /* background-color: blue; */
+    margin: auto;
+}
+.navbar .innerNav .logo{
+    width: 50%;
+    /* background-color: yellow; */
+    height: 100%;
+    /* margin: auto; */
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.navbar .innerNav .logo .innerUl{
+    width: 70%;
+    height: 100%;
+    /* background-color: black; */
+
+}
+.navbar .innerNav .logo .innerUl .ulList{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    padding-top: 16px;
+    
+}
+.navbar .innerNav .logo .innerUl .ulList li{
+    list-style: none;
+}
+.navbar .innerNav .logo .innerUl .ulList li a{
+    text-decoration: none;
+     color: black; 
+    font-size: 18px;
+}
+.navbar .innerNav .innerRightUl{
+    width: 15%;
+    height: 100%;
+    /* background-color: brown; */
+    
+}
+.navbar .innerNav .innerRightUl .rigthUlList{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    padding-top: 16px;
+}
+.navbar .innerNav .innerRightUl .rigthUlList li{
+    list-style: none;
+}
+.navbar .innerNav .innerRightUl .rigthUlList li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.sectionBack{
+    width: 100%;
+    height: 90vh;
+    background-image: url('pics/two.webp');
+}
+.sectionBack .innerSection{
+    width: 30%;
+    height: 95%;
+    /* background-color: yellow; */
+    color: white;
+    
+}
+.sectionBack .innerSection .firstSection{
+    width: 90%;
+    height: 50%;
+    /* background-color: blue; */
+    text-align: center;
+    padding-top: 50px;
+}
+.sectionBack .innerSection .firstSection p{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.sectionBack .innerSection .firstSection h1{
+    font-size: 40px;
+}
+.sectionBack .innerSection .secondSection{
+    width: 90%;
+    height: 50%;
+    /* background-color: burlywood; */
+    text-align: center;
+    padding-top: 120px;
+}
+.sectionBack .innerSection .secondSection p{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.sectionBack .innerSection .secondSection h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.sectionBack .innerSection .secondSection .back-btn{
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+}
+.lableSection{
+    /* display: flex; */
+    width: 100%;
+    margin-top: 40px;
+}
+.lableSection .innerLable{
+    width: 90%;
+    /* background-color: yellow; */
+    height: 60vh;
+    color: black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.lableSection .innerLable .firstLable{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.lableSection .innerLable .firstLable .firstText p{
+    font-size: 30px;
+    padding-top: 40px;
+}
+.lableSection .innerLable .firstLable .firstText h1{
+    font-size: 50px;
+}
+.lableSection .innerLable .firstLable .secondText{
+    padding-top: 150px;
+}
+.lableSection .innerLable .firstLable .secondText p{
+    font-size: 18px;
+}
+.lableSection .innerLable .firstLable .secondText .lable-btn{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+.lableSection .innerLable .secondImageLable{
+    width: 60%;
+    height: 100%;
+
+}
+.lableSection .innerLable .secondImageLable img{
+    width: 100%;
+    height: 100%;
+}
+.lableSection .innerLable1{
+    width: 90%;
+    /* background-color: yellow; */
+    height: 60vh;
+    color: black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+}
+.lableSection .innerLable1 .firstLable{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.lableSection .innerLable1 .firstLable .firstText p{
+    font-size: 30px;
+    padding-top: 40px;
+}
+.lableSection .innerLable1 .firstLable .firstText h1{
+    font-size: 50px;
+}
+.lableSection .innerLable1 .firstLable .secondText{
+    padding-top: 150px;
+}
+.lableSection .innerLable1 .firstLable .secondText p{
+    font-size: 18px;
+}
+.lableSection .innerLable1 .firstLable .secondText .lable-btn{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+.lableSection .innerLable1 .secondImageLable{
+    width: 60%;
+    height: 100%;
+
+}
+.lableSection .innerLable1 .secondImageLable img{
+    width: 100%;
+    height: 100%;
+}
+.lableSection .innerLable2{
+    width: 90%;
+    height: 60vh;
+    color: black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.lableSection .innerLable2 .imageLableOne{
+    width: 49%;
+    height: 100%;
+    /* background-image: url('pics/four.webp'); */
+    background-color: aqua;
+    display: flex;
+}
+.lableSection .innerLable2 .imageLableOne .imageOne{
+     
+     width: 50%;
+     height: 80%;
+     /* background-color: white; */
+     margin-top: 50px;
+
+}
+.lableSection .innerLable2 .imageLableOne .imageOne img{
+    width: 100%;
+    height: 100%;
+}
+/* .lableSection .innerLable2 .imageLableTwo{
+    width: 49%;
+    height: 100%;
+    background-image: url('pics/five.webp') ;
+    background-color: brown;
+    display: flex;
+}
+.lableSection .innerLable2 .imageLableTwo .imageTwo{
+     
+     width: 50%;
+     height: 80%;
+     background-color: yellow;
+     margin-top: 50px;
+     
+
+}
+.lableSection .innerLable2 .imageLableTwo .imageTwo img{
+    width: 100%;
+    height: 100%;
+} */
+.lableSection .innerLable2 .imageLableOne .textFirstLable{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 243, 243);
+}
+.lableSection .innerLable2 .imageLableOne .textFirstLable .first{
+    padding-top: 40px;
+    width: 100%;
+    height: 50%;
+}
+.lableSection .innerLable2 .imageLableOne .textFirstLable .first p{
+    font-size: 22px;
+}
+.lableSection .innerLable2 .imageLableOne .textFirstLable .first h1{
+    font-size: 40px;
+}
+.lableSection .innerLable2 .imageLableOne .textFirstLable .second{
+    padding-top: 100px;
+    width: 100%;
+    height: 50%;
+    
+}
+.lableSection .innerLable2 .imageLableOne .textFirstLable .second p{
+    font-size: 18px;
+}
+.lableSection .innerLable2 .imageLableOne .textFirstLable .second .lableBtn{
+    background-color: black;
+    width: 150px;
+    height: 40px;
+    color: white;
+    margin-top: 10px
+}
+.lableSection .innerLable3{
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+}
+.lableSection .innerLable3 .textLable{
+    width: 30%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.lableSection .innerLable3 .textLable .one{
+    width: 100%;
+    height: 50%;
+    padding-top: 40px;
+}
+.lableSection .innerLable3 .textLable .one p{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.lableSection .innerLable3 .textLable .one h1{
+    font-size: 40px;
+}
+.lableSection .innerLable3 .textLable .two{
+    padding-top: 90px;
+    width: 100%;
+    height: 50%;
+}
+.lableSection .innerLable3 .textLable .two a{
+    /* margin-top: 20px;sss */
+    color: black;
+}
+.lableSection .innerLable3 .imageLable{
+    width: 70%;
+    height: 100%;
+}
+.lableSection .innerLable3 .imageLable img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    height: 120vh;
+    margin-top: 50px;
+}
+footer .mainUl{
+    /* display: flex; */
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    /* background-color: yellow; */
+    padding-top: 30px;
+    /* justify-content: space-between; */
+}
+footer .mainUl .sides{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+footer .mainUl .sides .innerUl{
+    width: 18%;
+    height: 100%;
+    /* background-color: blue;  */
+
+}
+footer .mainUl .sides .innerUl p{
+    color: white;
+    font-size: 20px;
+}
+footer .mainUl .sides .innerUl li{
+    list-style: none;
+    padding-top: 20px;
+    font-size: 14px;
+}
+footer .mainUl .sides .innerUl a{
+    text-decoration: none;
+    color: wheat;
+}
+footer .lastinner{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 20px
+}
+footer .lastinner ul{
+    display: flex;
+    width: 52%;
+    /* background-color: yellow; */
+    justify-content: space-between;
+}
+footer .lastinner ul li{
+    list-style: none;
+    /* padding-left: 20px; */
+}
+footer .lastinner ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer .lastinner .peragraph{
+    display: flex;
+
+}
